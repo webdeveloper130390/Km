@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+.btn{
+    background-color: green;
+    color: white;
+}
+.box{
+    border: 1px solid #000;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.li{
+    display: flex;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
